@@ -1,0 +1,169 @@
+{
+    "GurgaonShowroom":[  
+        {
+        "id":"1000",
+        "imagepath":[
+            {
+                "id":"7000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/21.jpg"
+            },
+            {
+                "id":"8000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/17.jpg"
+            },
+            {
+                "id":"9000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/18.jpg"
+            },
+            {
+                "id":"10000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/13.jpg"
+            },
+            {
+                "id":"10001",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/14.jpg"
+            },
+            {
+                "id":"10002",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/15.jpg"
+            },
+            {
+                "id":"10003",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/gurgaon/16.jpg"
+            }
+
+        ],
+        "aboutshowroom":[
+            {
+                "id":"2000",
+                "text":"Not to brag, but we are the one of a kind in Asia."
+            },
+            {
+                "id":"3000",
+                "text":"A complete space to keep and pamper 150 cars."
+            },
+            {
+                "id":"4000",
+                "text":"Keeping in mind our car's comfort, We have a dedicated lift till the third floor."
+            },
+            {
+                "id":"5000",
+                "text":"Unique architecture. The entire showroom has no sharp and evident corners. The complete space is a round structure."
+            },
+            {
+                "id":"6000",
+                "text":"State of art interiors which speak nothing but supercar love."
+            }
+
+        ]
+        }
+    ],
+
+    "MumbaiStudio":[  
+        {
+        "id":"10004",
+        "imagepath":[
+            {
+                "id":"10005",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/1.jpg"
+            },
+            {
+                "id":"10006",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/2.jpg"
+            },
+            {
+                "id":"10007",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/3.jpg"
+            },
+            {
+                "id":"10008",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/4.jpg"
+            },
+            {
+                "id":"10009",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/5.jpg"
+            },
+            {
+                "id":"20000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/6.jpg"
+            },
+            {
+                "id":"20001",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/mumbai/7.jpg"
+            }
+
+        ],
+        "aboutshowroom":[
+            {
+                "id":"20002",
+                "text":"First tech savvy supercar showroom in the ‘glamour capital of India’"
+            },
+            {
+                "id":"20003",
+                "text":"An impressive 75x23 feet height upfront to keep one gazed"
+            },
+            {
+                "id":"20004",
+                "text":"Provides a unique digital experience to the walk-ins"
+            },
+            {
+                "id":"20005",
+                "text":"Showcases up to eight supercars at a time"
+            },
+            {
+                "id":"20006",
+                "text":"At your service, 10-8 and 7 days a week"
+            },
+            {
+                "id":"20007",
+                "text":"Located at the heart of Andheri East, the hub of all activities"
+            }
+
+        ]
+        }
+    ],
+    "HyderabadStudio":[  
+        {
+        "id":"20008",
+        "imagepath":[
+            {
+                "id":"20009",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/1.jpg"
+            },
+            {
+                "id":"30000",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/2.jpg"
+            },
+            {
+                "id":"30001",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/3.jpg"
+            },
+            {
+                "id":"30002",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/4.jpg"
+            },
+            {
+                "id":"30003",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/5.jpg"
+            },
+            {
+                "id":"30004",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/6.jpg"
+            },
+            {
+                "id":"30005",
+                "image":"https://www.bigboytoyz.com/theme/BBT/img/hyderabad/7.jpg"
+            }
+
+        ],
+        "aboutshowroom":[
+            {
+                "id":"30006",
+                "text":"We will make sure that you experience extraordinary as you step into the world of beautiful driving machines."
+            }
+
+        ]
+        }
+    ],
+    
+    }

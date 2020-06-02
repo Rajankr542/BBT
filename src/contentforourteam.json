@@ -1,0 +1,114 @@
+ {
+"TheManagement":[  
+    {
+    "id":1,
+    "imagepath":"https://www.bigboytoyz.com/images/teams/jatin.jpg",
+    "name":"Jatin Ahuja",
+    "position":"Founder & Managing Director",
+    "message":"Great entrepreneurs are more born than made. Mr Jatin Ahuja is an entrepreneur in the true sense of the word. His passion for the industry saw him initiating his career at the young age of 17. With his dedication, relentless pursuit for impeccable service and vehemence have seen him build and bring Big Boy Toyz today as one of the strongest names in luxury automotive industry across the length and breadth of the country."
+    },
+    {
+        "id":2,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/manager-img01.jpg",
+        "name":"S.L. Ahuja",
+        "position":"Chairman",
+        "message":"Mr. S. L. Ahuja, B.Com, FCA, LL.B, is the driving force behind the company. A man with a vision to create a venerable business of excellence, he is the inspiration that spearheads the company's management and operations; strategizing and directing it through its next phase of growth. Born in Haryana, Mr Ahuja qualified as a Fellow Chartered Accountant with specialization in Finance. His keen business acumen helped him chart early success in consumer and automobile finance that led him to venture into business with the establishment of M/s Kiran Securities Pvt Ltd in the year 1994, venturing into consumer finance."
+    },
+    {
+        "id":3,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/nipun.jpg",
+        "name":"Nipun Miglani",
+        "position":"Director (Sales)",
+        "message":"With over 16 years of experience in Premium Car Segment in South and West India and a professional degree of MBA in Finance and Allied Marketing, Mr. Nipun Miglani has been the catalyst in accelerating the company’s growth. While a lot of us might see him as a Young Entrepreneur of a bit over 30 years, he brings him the propensity to break into unchartered waters and reign over them. His vast experience has helped the organisation to explore newer markets with a perpetual acceleration and growing its business pan India. His positive approach and commendable knowledge of the Luxury Automobiles has seen the Organization growing exponentially. He constantly monitors the performance of the Sales Force and mentors them to spread their wings and widen their horizon by guiding and motivating the Sales Team with his expertise in the field. As a guiding star to the Sales Force, he ensures that he is always approachable, no matter how tied up he is with his work."
+    },  
+    {
+        "id":4,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/318x318.jpg",
+        "name":"Mrs. Ritika Jatin Ahuja",
+        "position":"COO - Merchandise",
+        "message":"A budding entrepreneur, Ms Ritika Jatin Ahuja spearheads the Merchandising section at Big Boy Toyz. She has been an avid collector of miniature perfumes since childhood which she cultivated as a hobby and a passion. She has been awarded the ‘Certificate of Excellence’ by the Golden Book of World Records for the same. An interior designer by profession, she has also specialized in the interior designing of jets and yachts from the University of Arts London. The manner in which she has balanced motherhood and profession with great harmony and precision has been commendable."
+    },
+    
+],
+"Team":[  
+    {
+    "id":6,
+    "imagepath":"https://www.bigboytoyz.com/images/teams/Vivek Kumar.jpg",
+    "name":"Vivek Kumar",
+    "position":"Loans & Finance",
+    "message":"--"
+    },
+    {
+        "id":7,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/MD Danish.jpg",
+        "name":"Mohd. Danish Siddique",
+        "position":"Loans & Finance",
+        "message":"--"
+    },
+    {
+        "id":8,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Ajay-Khirwar.jpg",
+        "name":"Ajay Khirwar",
+        "position":"Head- Finance & Loans",
+        "message":"Ajay Khirwar. With an extensive interest & knowledge in the Vehicle Finance, Ajay Khirwar facilitates the Finance on the Cars and heads the Finance & Loans section with Big Boy Toyz. He has a proven track record of achieving over 65% strike rate. An extremely humble and result oriented individual, Ajay is a Subject Matter Expert and is always glad to offer assistance to Internal & External Customers."
+    },  
+    {
+        "id":9,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Suraj Mandal.jpg",
+        "name":"Suraj Mandal",
+        "position":"Accounts",
+        "message":"--"
+    },
+    {
+        "id":10,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/THERSIAMMA JOHNY.jpg",
+        "name":"THERSIAMMA JOHNY",
+        "position":"Accounts",
+        "message":"----------------coming soon---------------"
+    },
+    {
+        "id":11,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Nupur.jpg",
+        "name":"Nupur Mishra",
+        "position":"Compliance",
+        "message":"--"
+    },
+    {
+        "id":12,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Vikash Sheoran.jpg",
+        "name":"Vikash",
+        "position":"Compliance",
+        "message":"--"
+    },
+    {
+        "id":13,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/men-profile.jpg",
+        "name":"Mukesh Kumar",
+        "position":"After Sales",
+        "message":"--"
+    },
+    {
+        "id":14,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Atul.jpg",
+        "name":"Atul Harit",
+        "position":"After Sales",
+        "message":"--"
+    },
+    {
+        "id":15,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Harmeet_.jpg",
+        "name":"Harmeet Singh",
+        "position":"After Sales",
+        "message":"--"
+    },
+    {
+        "id":16,
+        "imagepath":"https://www.bigboytoyz.com/images/teams/Vikram Singh Dahiya.jpg",
+        "name":"Vikram Singh Dahiya",
+        "position":"HOD - After Sales & Service",
+        "message":"With over 17 years of hands-on experience with the Luxury Marques like Bentley, Lamborghini, Mercedes-Benz et al, Vikram Singh Dahiya is a live example of the formula – Success is directly proportional to Dedication. He has attended various on-job training for Lamborghini in Sant'Agata, Italy and a couple for Porsche and Bentley in the Middle East. With a passion for speed and driving, Vikram ensures that all the stock cars are properly attended to."
+    }
+    
+],
+
+}

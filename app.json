@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bbt-gallery",
-    "slug": "bbt-gallery",
+    "name": "BBT",
+    "slug": "BBT",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+       "bundleIdentifier": "com.companyname.appname"
+    },
+        "android": {
+      "package": "com.companyname.appname"
     }
   }
 }
