@@ -5,7 +5,10 @@ StyleSheet,
 ScrollView,
 Text,
 TouchableOpacity,
-FlatList
+FlatList,
+Platform,
+UIManager,
+LayoutAnimation
 } from 'react-native';
 import CustomHeader from '../Component/Header';
 import OurTeamManagementoneMember from '../Component/OurTeamManagementoneMember';
@@ -13,8 +16,12 @@ import OurTeamTypeReplicate from '../Component/OurTeamTypeReplicate';
 import Ourteamdata from '../contentforourteam.json';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-
-
+if (
+    Platform.OS === "android" &&
+    UIManager.setLayoutAnimationEnabledExperimental
+  ) {
+    UIManager.setLayoutAnimationEnabledExperimental(true);
+  }
 
 const OurTeam = () => {
 
@@ -33,7 +40,7 @@ star='false'
 <View style={styles.tabcontainer}>
 
 <TouchableOpacity 
-onPress={() => {setCurrenttab('themanagement')}} 
+onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setCurrenttab('themanagement')}} 
 style={{position:'relative'}}>
 {currenttab === 'themanagement' ?
     <Text style={{...styles.tabtext,opacity:1}}>The Management</Text> 
@@ -48,7 +55,7 @@ style={{position:'relative'}}>
 </TouchableOpacity>
 
 <TouchableOpacity 
-onPress={() => {setCurrenttab('theteam')}} 
+onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setCurrenttab('theteam')}} 
 style={{position:'relative'}}>
 {currenttab === 'theteam' ?
     <Text style={{...styles.tabtext,opacity:1}}>The Team</Text> 

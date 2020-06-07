@@ -9,6 +9,9 @@ import Wallpaperfavorite from './src/screens/Wallpaperfavorite';
 import OurShowroomLisiting from './src/screens/OurShowroomLisiting';
 import WhyBbt from './src/screens/WhyBbt';
 import OurTeam from './src/screens/OurTeam';
+import EstoreListing from './src/screens/EstoreListing';
+import EstoreDetailscreen from './src/screens/EstoreDetailscreen';
+import TearmOfUse from './src/screens/TearmOfUse';
 import OurTeamDetailmessage from './src/screens/OurTeamDetailmessage';
 import PrivicyPolicy from './src/screens/PrivicyPolicy';
 import * as Font from 'expo-font';
@@ -44,10 +47,17 @@ const switchNavigator = createSwitchNavigator({
  {
    headerMode:"none"
  }),
-
+ Estore:createStackNavigator({
+EstoreListing:EstoreListing,
+EstoreDetail:EstoreDetailscreen
+  },
+  {
+    headerMode:"none"
+  }),
   OurShowroom : OurShowroomLisiting,
   WhyBBT : WhyBbt,
-  Privicy : PrivicyPolicy
+  Privicy : PrivicyPolicy,
+  Terms:TearmOfUse
   },
   {
     initialRouteName: "WallPaper",

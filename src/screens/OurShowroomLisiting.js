@@ -8,7 +8,10 @@ import {
   Dimensions,
   TouchableOpacity,
   Image,
-  Modal
+  Modal,
+  Platform,
+  UIManager,
+  LayoutAnimation
 } from 'react-native';
 import CustomHeader from '../Component/Header';
 import { Feather } from '@expo/vector-icons'; 
@@ -16,6 +19,13 @@ import OneShowroomView from '../Component/OneShowroomView';
 import dataofshowroom from '../bbtshowroom.json';
 import CallbackPopup from '../Component/CallbackPopup';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+
+if (
+  Platform.OS === "android" &&
+  UIManager.setLayoutAnimationEnabledExperimental
+) {
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+}
 
 const OurShowroomLisiting = () => {
   const [activeshowroomdata,SetActiveshowroomdata]=useState(dataofshowroom.GurgaonShowroom);
@@ -50,7 +60,7 @@ const OurShowroomLisiting = () => {
       <View style={styles.textcontainer}>
           <Text style={styles.text}>We Believe In Nothing{"\n"}But Extraordinary</Text>
       </View>
-      <TouchableOpacity style={styles.buttonscroll} onPress={() => {SetSeescroll(true)}}>
+      <TouchableOpacity style={styles.buttonscroll} onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); SetSeescroll(true)}}>
         <Text 
         style={{color:'#fff',fontFamily:'roboto-light',fontSize:wp("7%"),letterSpacing:wp("1%")}}>
             BBT SHOWROOM
@@ -156,7 +166,7 @@ Languages</Text>
 <View style={{marginVertical:hp("4%")}}>
 <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{paddingHorizontal:wp("7%")}}>
   
-<TouchableOpacity onPress={() => {setActiveshowRomm('Gurgaon-Showroom'),SetActiveshowroomdata(dataofshowroom.GurgaonShowroom)}}>
+<TouchableOpacity onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setActiveshowRomm('Gurgaon-Showroom'),SetActiveshowroomdata(dataofshowroom.GurgaonShowroom)}}>
   {activeshworoom === 'Gurgaon-Showroom' ?
   <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),marginRight:wp("6%")}}>Gurgaon - Showroom</Text>
   : <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),opacity:0.6,marginRight:wp("6%")}}>Gurgaon - Showroom</Text>
@@ -169,7 +179,7 @@ Languages</Text>
 }
 </TouchableOpacity>
 
-<TouchableOpacity onPress={() => {setActiveshowRomm('Mumbai-Studio'),SetActiveshowroomdata(dataofshowroom.MumbaiStudio)}}>
+<TouchableOpacity onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setActiveshowRomm('Mumbai-Studio'),SetActiveshowroomdata(dataofshowroom.MumbaiStudio)}}>
   {activeshworoom === 'Mumbai-Studio' ?
   <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),marginRight:wp("6%")}}>Mumbai - Studio</Text>
   : <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),opacity:0.6,marginRight:wp("6%")}}>Mumbai - Studio</Text>
@@ -182,7 +192,7 @@ Languages</Text>
 }
 </TouchableOpacity>
 
-<TouchableOpacity onPress={() => {setActiveshowRomm('Hyderabad-Studio'),SetActiveshowroomdata(dataofshowroom.HyderabadStudio)}}>
+<TouchableOpacity onPress={() => {LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut); setActiveshowRomm('Hyderabad-Studio'),SetActiveshowroomdata(dataofshowroom.HyderabadStudio)}}>
   {activeshworoom === 'Hyderabad-Studio' ?
   <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),marginRight:wp("13%")}}>Hyderabad - Studio</Text>
   : <Text style={{fontFamily:'roboto-medium',fontSize:wp("4.3%"),opacity:0.6,marginRight:wp("13%")}}>Hyderabad - Studio</Text>
@@ -209,7 +219,7 @@ Languages</Text>
   <Text style={styles.vistitbuttontext}>I Want to Plan a Visit</Text>
 </TouchableOpacity>
 
-<Modal visible={popupform}>
+<Modal visible={popupform} animationIn>
 <CallbackPopup crossbutton={() => {setPopupform(false)}}/>
 </Modal>
 
@@ -270,7 +280,7 @@ color:'#4d5156'
 },
 backgroundimage:{
 width:wp("100%"),
-height:hp("110%")
+height:hp("100%")
 },
 textcontainer:{
 paddingVertical:hp("9%")
@@ -283,7 +293,7 @@ lineHeight:wp("8.5%")
 },
 buttonscroll:{
     position:'absolute',
-    bottom:hp("8%"),
+    bottom:hp("4%"),
     alignSelf:'center'
 },
 buttonscrollbutton:{

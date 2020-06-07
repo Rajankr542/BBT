@@ -94,7 +94,8 @@ imagecaption:'Lamborghini Aventador'
 
   return (
     <View style={{flex:1,backgroundColor:'#fff'}}>
-      <CustomHeader/>
+      <CustomHeader
+      />
       <ScrollView showsVerticalScrollIndicator={false}>
       <View style={styles.customcontainer}>
 

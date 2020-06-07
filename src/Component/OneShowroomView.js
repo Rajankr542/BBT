@@ -4,10 +4,9 @@ import {
   StyleSheet,
   Text,
   Dimensions,
-  Image,
   FlatList
 } from 'react-native';
-import ImageSlider from 'react-native-image-slider';
+import { SliderBox } from "react-native-image-slider-box";
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 const OneShowroomView = ({data}) => {
@@ -15,16 +14,12 @@ const OneShowroomView = ({data}) => {
 return (
   <View>
 <View style={{marginBottom:hp("5%"),marginTop:hp("1%")}}>
- <ImageSlider
-          loopBothSides
-          autoPlayWithInterval={3000}
-          images={images}
-          customSlide={({ index, item, style }) => (
-            <View key={index} style={[style]}>
-              <Image source={{ uri: item }} style={styles.imagestyle} />
-            </View>
-          )}
-        />
+<SliderBox
+  images={images}
+  sliderBoxHeight={ hp("38%")}
+  dotColor="#FFF"
+  inactiveDotColor="#90A4AE"
+/>
   </View>
   <View>
 
@@ -54,11 +49,6 @@ return (
   };
 
   const win = Dimensions.get('window');
-  const styles = StyleSheet.create({
-    imagestyle:{
-      width:wp("100%"),
-      height:hp("38%")
-    }
-    });
+  const styles = StyleSheet.create({  });
   
   export default OneShowroomView;
