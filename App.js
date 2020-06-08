@@ -14,6 +14,7 @@ import EstoreDetailscreen from './src/screens/EstoreDetailscreen';
 import TearmOfUse from './src/screens/TearmOfUse';
 import OurTeamDetailmessage from './src/screens/OurTeamDetailmessage';
 import PrivicyPolicy from './src/screens/PrivicyPolicy';
+import EstoreCart from './src/screens/EstoreCart';
 import * as Font from 'expo-font';
 import {AppLoading} from 'expo';
 
@@ -49,7 +50,8 @@ const switchNavigator = createSwitchNavigator({
  }),
  Estore:createStackNavigator({
 EstoreListing:EstoreListing,
-EstoreDetail:EstoreDetailscreen
+EstoreDetail:EstoreDetailscreen,
+EstoreCart:EstoreCart
   },
   {
     headerMode:"none"

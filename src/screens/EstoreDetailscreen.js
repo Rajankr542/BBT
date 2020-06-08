@@ -209,6 +209,7 @@ placeholder="Enter your pin"
 <Text style={{fontFamily:'roboto-regular',opacity:0.6,fontSize:wp("4%"),lineHeight:wp("6%")}}>{item.productDescription}</Text>
 :
 <View style={{flex:1}}>
+
 <FlatList
 data={item.ProductDetails}
 keyExtractor={(testext) => testext.id}
@@ -228,6 +229,8 @@ return (
 )
 }}
 />
+
+
 </View>
 }
 

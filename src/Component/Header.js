@@ -5,7 +5,7 @@ import { Header } from 'react-native-elements';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 
-const CustomHeader = ({navigation,star,cart,style,backbutton}) => {
+const CustomHeader = ({navigation,star,cart,style,backbutton,cartdot}) => {
   {cart ? cart='false' : cart='true'}
   {backbutton ? backbutton='false' : backbutton='true'}
   return (
@@ -31,9 +31,24 @@ const CustomHeader = ({navigation,star,cart,style,backbutton}) => {
    }
   rightComponent={
     <View style={{flexDirection:'row'}}>
-       { cart==='true' ? null: <TouchableOpacity>
+       { cart==='true' ? null: 
+       <TouchableOpacity onPress={() => {navigation.navigate('EstoreCart')}}>
     <Image source={require('../../assets/cart.png')} style={{width:wp('6%'),resizeMode:"contain",height:wp('6%'),marginRight:wp('6%')}}/>
-    </TouchableOpacity> }
+    {
+    cartdot==='true' ?
+    <View 
+    style={{
+      width:wp("2%"),
+      height:wp("2%"),
+      opacity:.6,
+      backgroundColor:'red',
+      position:'absolute',
+      left:wp("4%"),
+      top:wp("1%"),
+      borderRadius:wp("5%")}}/>
+      : null
+  }
+      </TouchableOpacity> }
 
     { star ? null: <TouchableOpacity onPress={() => {navigation.navigate('Wallpaperfavorite')}}>
     <Image source={require('../../assets/star-icon.png')} style={{width:wp('6%'),resizeMode:"contain",height:wp('6%'),marginRight:wp('6%')}}/>
